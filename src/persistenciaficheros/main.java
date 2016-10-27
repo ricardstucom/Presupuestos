@@ -30,7 +30,7 @@ public class main {
                     NuevoPresupuesto();
                     break;
                 case 3:
-                   // mostrarPendientes2();
+                    mostrarPendientes2();
                     break;
                 case 4:
                     break;
@@ -126,6 +126,21 @@ public class main {
 
     private static void mostrarPendientes2(){
      
-//     misPresupuestos.mostrarPendientes();
+       for(Cliente cliente : misClientes.getLista_cliente()){
+            for(Presupuesto presupuesto : cliente.getPresupuesto().getLista_presupuesto()){
+                if(presupuesto.getEstado().equalsIgnoreCase("pendiente")){
+                       System.out.println("----------------------------------------------");
+                    System.out.println("PRESUPUESTOS PENDIENTES");
+                       System.out.println("----------------------------------------------");
+                    System.out.println("Nombre :"+cliente.getNombre());
+                    System.out.println("Apellido :"+cliente.getApellidos());
+                    System.out.println("Concepto: "+presupuesto.getConcepto());
+                    System.out.println("Precioneto: "+presupuesto.getPrecioneto());
+                    System.out.println("----------------------------------------------");
+                    
+                }
+            }
+       
+       }
     }
      }

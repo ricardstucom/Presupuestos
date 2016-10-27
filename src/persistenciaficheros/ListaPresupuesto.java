@@ -3,6 +3,7 @@ package persistenciaficheros;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -16,9 +17,9 @@ public class ListaPresupuesto implements Serializable{
     public void registrarPresupuesto(Presupuesto p){
         lista_presupuesto.add(p);
     }
-    public void mostrarPendientes(){
-        System.out.println(lista_presupuesto);
-    }
+//    public void mostrarPendientes(){
+//        
+//    }
     
 //     public void bajaCliente(Cliente p){
 //        lista.remove(p);
@@ -34,4 +35,10 @@ public class ListaPresupuesto implements Serializable{
     public void setLista_presupuesto(ArrayList<Presupuesto> lista_presupuesto) {
         this.lista_presupuesto = lista_presupuesto;
     }
+    
+    public List<Presupuesto> found (){
+         return lista_presupuesto;
+    }
+    
+    
 }

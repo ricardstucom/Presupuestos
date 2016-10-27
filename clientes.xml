@@ -113,6 +113,44 @@
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="persistenciaficheros.Cliente">
+     <void property="apellidos">
+      <string>huelamo</string>
+     </void>
+     <void property="nombre">
+      <string>ricard</string>
+     </void>
+     <void property="presupuesto">
+      <object class="persistenciaficheros.ListaPresupuesto" id="ListaPresupuesto1">
+       <void property="lista_presupuesto">
+        <void method="add">
+         <object class="persistenciaficheros.Presupuesto">
+          <void property="concepto">
+           <string>prueba</string>
+          </void>
+          <void property="estado">
+           <string>pendiente</string>
+          </void>
+          <void property="id">
+           <int>620808495</int>
+          </void>
+          <void property="precioneto">
+           <int>900</int>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="telefono">
+      <int>620808495</int>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
 </java>
