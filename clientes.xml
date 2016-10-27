@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="persistenciaficheros.ListaCliente" id="ListaCliente0">
+  <void property="lista_cliente">
+   <void method="add">
+    <object class="persistenciaficheros.Cliente">
+     <void property="apellidos">
+      <string>huerlamo</string>
+     </void>
+     <void property="nombre">
+      <string>ricard</string>
+     </void>
+     <void property="presupuesto">
+      <object class="persistenciaficheros.ListaPresupuesto"/>
+     </void>
+     <void property="telefono">
+      <int>3232112</int>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="persistenciaficheros.Cliente">
+     <void property="apellidos">
+      <string>ola</string>
+     </void>
+     <void property="nombre">
+      <string>ola</string>
+     </void>
+     <void property="presupuesto">
+      <object class="persistenciaficheros.ListaPresupuesto"/>
+     </void>
+     <void property="telefono">
+      <int>3223</int>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="persistenciaficheros.Cliente">
+     <void property="apellidos">
+      <string>petu</string>
+     </void>
+     <void property="nombre">
+      <string>petu</string>
+     </void>
+     <void property="presupuesto">
+      <object class="persistenciaficheros.ListaPresupuesto"/>
+     </void>
+     <void property="telefono">
+      <int>434</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="persistenciaficheros.Cliente">
+     <void property="apellidos">
+      <string>123</string>
+     </void>
+     <void property="nombre">
+      <string>123</string>
+     </void>
+     <void property="presupuesto">
+      <object class="persistenciaficheros.ListaPresupuesto"/>
+     </void>
+     <void property="telefono">
+      <int>123</int>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="persistenciaficheros.Cliente">
+     <void property="apellidos">
+      <string>martinez</string>
+     </void>
+     <void property="nombre">
+      <string>javier</string>
+     </void>
+     <void property="presupuesto">
+      <object class="persistenciaficheros.ListaPresupuesto" id="ListaPresupuesto0">
+       <void property="lista_presupuesto">
+        <void method="add">
+         <object class="persistenciaficheros.Presupuesto">
+          <void property="concepto">
+           <string>prespuesto prueba</string>
+          </void>
+          <void property="estado">
+           <string>pendiente</string>
+          </void>
+          <void property="id">
+           <int>234</int>
+          </void>
+          <void property="precioneto">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="telefono">
+      <int>234</int>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
